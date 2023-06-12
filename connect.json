@@ -1,0 +1,101 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/DQ5SnyL.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://linecorp.com"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "action": {
+      "type": "uri",
+      "uri": "https://linecorp.com"
+    },
+    "contents": [
+      {
+        "type": "text",
+        "text": "聯絡資訊",
+        "size": "lg",
+        "weight": "bold"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "信箱",
+                "flex": 1,
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "littlechen872@gmail.com",
+                "size": "sm",
+                "flex": 5,
+                "align": "end"
+              }
+            ],
+            "spacing": "lg",
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "電話",
+                "flex": 1,
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "0970-839-883",
+                "size": "sm",
+                "align": "end"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "md"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#905c44",
+        "action": {
+          "type": "uri",
+          "label": "分享好友",
+          "uri": "line://nv/recommendOA/@872celzm"
+        },
+        "margin": "xxl"
+      }
+    ]
+  }
+}
