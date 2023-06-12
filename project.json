@@ -1,0 +1,130 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/cLmSPFw.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://linecorp.com"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "lg",
+    "action": {
+      "type": "uri",
+      "uri": "https://linecorp.com"
+    },
+    "contents": [
+      {
+        "type": "text",
+        "text": "專案作品",
+        "size": "lg",
+        "weight": "bold"
+      },
+      {
+        "type": "separator",
+        "margin": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "名稱",
+                "flex": 1,
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "[搜狗] 中原浪浪 A I 辨識追蹤系統",
+                "flex": 5,
+                "color": "#666666",
+                "size": "sm"
+              }
+            ],
+            "margin": "lg",
+            "spacing": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "內容",
+                "flex": 1,
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "手機串接雲端以及邊緣運算，進行校狗的辨識以及追蹤 \n",
+                "size": "sm",
+                "color": "#666666",
+                "flex": 5,
+                "wrap": true
+              }
+            ],
+            "spacing": "md",
+            "margin": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "負責",
+                "flex": 1,
+                "size": "sm",
+                "color": "#aaaaaa"
+              },
+              {
+                "type": "text",
+                "text": "模型辨識訓練、操作介面設計",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ],
+            "spacing": "xs",
+            "margin": "xs"
+          }
+        ],
+        "margin": "xs"
+      }
+    ],
+    "margin": "sm"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#ba9630",
+        "action": {
+          "type": "uri",
+          "label": "搜狗Demo",
+          "uri": "https://www.youtube.com/watch?v=vMaJdFYFJ3M"
+        },
+        "flex": 2
+      }
+    ],
+    "spacing": "sm"
+  }
+}
