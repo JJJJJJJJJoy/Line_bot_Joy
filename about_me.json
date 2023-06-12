@@ -1,0 +1,236 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/tLQPi9l.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "學經歷",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "separator",
+            "margin": "xs"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "學歷",
+                "wrap": true,
+                "size": "sm",
+                "flex": 1,
+                "color": "#aaaaaa"
+              },
+              {
+                "type": "text",
+                "text": "[世新] 行政管理學系 學士",
+                "size": "sm",
+                "flex": 5,
+                "color": "#666666"
+              }
+            ],
+            "margin": "lg",
+            "spacing": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "經歷",
+                "flex": 1,
+                "size": "sm",
+                "color": "#aaaaaa"
+              },
+              {
+                "type": "text",
+                "text": "[台科大研發處] 專案管理師\n[HTC] 部門秘書",
+                "flex": 5,
+                "size": "sm",
+                "wrap": true,
+                "color": "#666666"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "進修",
+                "size": "sm",
+                "flex": 1,
+                "color": "#aaaaaa"
+              },
+              {
+                "type": "text",
+                "text": "[商學院] AI應用開發實戰養成班",
+                "flex": 5,
+                "size": "sm",
+                "color": "#666666"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg"
+          }
+        ],
+        "spacing": "lg",
+        "margin": "sm"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "action": {
+              "type": "uri",
+              "label": "履歷",
+              "uri": "https://drive.google.com/drive/folders/1jj2SO4HBbCfuYnALMwCiFr5EzRVUX-BB"
+            },
+            "color": "#29367d"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/rtVPDaz.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "lg",
+        "contents": [
+          {
+            "type": "text",
+            "text": "技能",
+            "wrap": true,
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "separator",
+            "margin": "xs"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "語言",
+                "size": "sm",
+                "flex": 1,
+                "color": "#aaaaaa"
+              },
+              {
+                "type": "text",
+                "wrap": true,
+                "size": "sm",
+                "flex": 4,
+                "text": "Python",
+                "color": "#666666"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "資料庫",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "MySQL, MongoDB ",
+                "flex": 4,
+                "size": "sm",
+                "color": "#666666"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg"
+          },
+          
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "其他",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "flex": 4,
+                "size": "sm",
+                "text": "Linux, Tableau, Flask \nLine Bot, Docker, Git \nGCP, OpenCV, 鼎新",
+                "wrap": true,
+                "color": "#666666"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg"
+          }
+        ],
+        "margin": "sm"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "flex": 2,
+            "style": "primary",
+            "action": {
+              "type": "uri",
+              "label": "GitHub",
+              "uri": "https://github.com/JJJJJJJJJoy"
+            },
+            "color": "#00653f"
+          }
+        ]
+      }
+    }
+  ]
+}
